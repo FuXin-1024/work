@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Hello My Web!</title>
+</head>
+<body>
+	<h1>Nice to meet you !</h1>
+ <img src="imag/car.jpg" alt="default" width="400" height="200">
+ <form action="cgi-bin/insert_cgi" method="GET">
+	 name: <input type="text" name="name"><br/>
+	 sex : <input type="text" name="sex"><br/>
+	 age : <input type="text" name="age"><br/>
+	 hobby:<input type="text" name="hobby"><br/>
+	 school:<input type="text" name="school"><br/>
+	 <input type="submit" value="Submit"><br/>
+ </form> 
+
+<h2>------------------------------------------------------</h2>
+ <form action="cgi-bin/delete_cgi" method="Get">
+	 id: <input type="text" name="id"><br/>
+<input type="submit" value="Delete"><br/>
+</form>
+<h2>------------------------------------------------------</h2>
+
+
+
+
+ <form action="cgi-bin/updata_cgi" method="GET">
+	 name: <input type="text" name="name"><br/>
+	 sex : <input type="text" name="sex"><br/>
+	 age : <input type="text" name="age"><br/>
+	 hobby:<input type="text" name="hobby"><br/>
+	 school:<input type="text" name="school"><br/>
+	 id:<input type="text" name="id"><br/>
+	 <input type="submit" value="Updata"><br/>
+ </form> 
+
+
+
+<a href="cgi-bin/select_cgi">select</a>
+<h2>------------------------------------------------------</h2>
+
+
+
+<!--<form action ="cgi/cgifun" method="POST">
+<fieldset>
+<legend>Hello world</legend>
+First data:<br>
+<input type="text" name="firstname" value="0">
+<br>
+Second data:<br>
+<input type="text" name="lastname" value="1">
+<br><br>
+<input type="submit" value="Submit"></fieldset>
+</form--!>
+
+
+</body>
+</html>
